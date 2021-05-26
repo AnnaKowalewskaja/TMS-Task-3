@@ -1,0 +1,28 @@
+* {
+  font-family: 'Dosis','Quicksand','Montserrat', sans-serif;
+  font-size: 10px; }
+
+.body__background-img {
+  display: none; }
+
+* {
+  color: var(--black); }
+
+:root {
+  --black:#4F4F4F; }
+
+.navigation {
+  height: 100%;
+  width: 10rem;
+  position: fixed; }
+  .navigation i {
+    color: #7f7fd5;
+    font-size: 3.5rem; }
+
+.navigation__list {
+  list-style-type: none; }
+  .navigation__list li:not(:last-child) {
+    margin-bottom: 4rem; }
+
+.navigation__toggle-theme input {
+  width: 6rem; }

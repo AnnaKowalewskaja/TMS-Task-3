@@ -1,0 +1,30 @@
+* {
+  font-family: 'Dosis','Quicksand','Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.body__background-img {
+  display: none;
+}
+
+* {
+  color: var(--black);
+}
+
+:root {
+  --black:#4F4F4F;
+}
+
+.main {
+  height: 100%;
+}
+
+.navigation {
+  height: 100%;
+  width: 10rem;
+}
+
+h1 {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,CAAC,CAAA;EACG,WAAW,EAAE,4CAA4C;EAC5D,SAAS,EAAE,IAAI;CAEf;;AAOD,AAAA,qBAAqB,CAAA;EACjB,OAAO,EAAC,IAAI;CACf;;ACdD,AAAA,CAAC,CAAA;EACG,KAAK,EAAC,YAAY;CACrB;;AAED,AAAA,KAAK,CAAA;EACD,OAAO,CAAA,OAAC;CACX;;AEND,AAAA,KAAK,CAAA;EACD,MAAM,EAAE,IAAI;CACf;;ACFD,AAAA,WAAW,CAAA;EACP,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;CACf;;ACHD,AAAA,EAAE,CAAA;EACE,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "main.scss",
+        "base/global.scss",
+        "themes/light-theme.scss",
+        "themes/dark-theme.scss",
+        "layout/main.scss",
+        "layout/navigation.scss",
+        "layout/header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
