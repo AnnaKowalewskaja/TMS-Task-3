@@ -1,12 +1,20 @@
 .navigation {
-  height: 100%;
-  width: 10rem;
-  position: fixed;
-  
+  height: 100vh;
+  width: 8%;
+  max-width:100px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+align-items: center;
 
-  i {
+background: white;
+
+
+
+i {
     color: #7f7fd5;
     font-size: 3.5rem;
+    margin-top: 4.6rem;
   }
 
 
@@ -14,15 +22,22 @@
 
 .navigation__list{
     list-style-type: none;
+    padding-left: 0;
     li:not(:last-child){
         margin-bottom: 4rem;
     }
+   
 }
 
-.navigation__toggle-theme{
-
-    input{
-        
-        width: 6rem;
-    }
+.tumbler{
+  margin-bottom: 4.5rem;
 }
+
+.tumbler :hover{
+  cursor: pointer;
+}
+
+
+
+
+

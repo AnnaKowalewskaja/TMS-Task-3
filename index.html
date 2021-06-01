@@ -1,69 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
-    
-   <link rel="stylesheet" href="./lib/bootstrap-5.0.1-dist/css/bootstrap.min.css">
-   <link href="./lib/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
-  
-   <link rel="stylesheet" href="./styles/normalize.css">
-   <link rel="stylesheet" href="./scss/main.css">
-   <link rel="stylesheet" href="./css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Quicksand:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link href="./lib/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <!--<link rel="stylesheet" href="./css/main.css">-->
 
     <title>VK Community</title>
 </head>
 
-<body class="body">
-    
+<body class="body container">
 
 
-    
 
-    
+
+
+
     <nav class="navigation">
         <i class="fab fa-vk"></i>
 
         <ul class="navigation__list">
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/home.svg" alt="navigation home" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/news.svg" alt="navigation news" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/people.svg" alt="navigation people" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/message.svg" alt="navigation message" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/play.svg" alt="navigation play" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/statistic.svg" alt="navigation statistic" class="navigation__image"></a></li>
-<li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/settings.svg" alt="navigation settings" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/home.svg"
+                        alt="navigation home" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/news.svg"
+                        alt="navigation news" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/people.svg"
+                        alt="navigation people" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/message.svg"
+                        alt="navigation message" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/play.svg"
+                        alt="navigation play" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/statistic.svg"
+                        alt="navigation statistic" class="navigation__image"></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><img src="./img/navigation/settings.svg"
+                        alt="navigation settings" class="navigation__image"></a></li>
 
 
 
         </ul>
 
-        <div class="form-check form-switch navigation__toggle-theme">
-            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
-           
-          </div>
+
+        <img src="./img/navigation/tumbler.svg" alt="tumbler" class="tumbler">
+
+
     </nav>
-    
+
     <main class="main">
-   <div class="main__header">
+        <div class="main__header header">
+            <div class="header__left">
+                <h1 class="header__tittle">Statistics</h1>
 
-   </div>
+                <div class="search">
+                    <i class="fas fa-search search-icon icon"></i>
+                    <input type="text" class="search-field input__search" placeholder="Search">
 
-   <div class="main__content">
+                </div>
 
 
-   </div>
+
+
+
+                <img src="./img/header/call.png" alt="call" class="call">
+            </div>
+            <!--header__left-->
+            <div class="header__right">
+                <a href="#" class="header__link-profile">
+                    <p class="header__name">Anya</p>
+                    <img src="./img/header/photo.png" alt="" class="header__photo">
+                    <i class="fas fa-chevron-down icon "></i>
+
+                </a>
+            </div>
+            <!--header__right-->
+        </div>
+        <!--main__header-->
+
+        <div class="main__content content">
+
+            <div class="content__item item item__font-size-medium statistic__people">
+
+                <h3 class="item__title">Friends</h3>
+                <i class="fas fa-ellipsis-h icon item__settings"></i>
+                <p class="item__text-black">271 people</p>
+                <div class="statistic__persent">
+
+                    <p class="item__text-gray">+ 0,7%</p>
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+                <!--statistic__persent-->
+
+
+            </div>
+            <!--content__item-->
+            <div class="content__item item item__font-size-medium statistic__people">
+
+                <h3 class="item__title">Unique visitors </h3>
+                <i class="fas fa-ellipsis-h icon item__settings"></i>
+                <p class="item__text-black">69 people</p>
+                <div class="statistic__persent">
+                    <p class="item__text-gray">- 1,7%</p>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                <!--statistic__persent-->
+
+
+            </div>
+            <!--content__item-->
+            <div class="content__item item item__font-size-medium statistic__people">
+                <h3 class="item__title">Followers</h3>
+
+                <i class="fas fa-ellipsis-h icon item__settings"></i>
+                <p class="item__text-black">288 people</p>
+                <div class="statistic__persent">
+                    <p class="item__text-gray">+ 1%</p>
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+                <!--statistic__persent-->
+
+            </div>
+            <!--content__item-->
+            <div class="content__item item">
+                <h3 class="item__title">Audience reach</h3>
+            </div>
+            <!--content__item-->
+            <div class="content__item item">
+                <h3 class="item__title">Reach by device</h3>
+            </div>
+            <!--content__item-->
+            <div class="content__item item">
+                <h3 class="item__title">Gender / Age</h3>
+            </div>
+            <!--content__item-->
+            <div class="content__item item">
+                <h3 class="item__title">Geo</h3>
+            </div>
+            <!--content__item-->
+
+
+
+
+        </div>
+        <!--main__content-->
     </main>
 
-   
 
 
 
 
-    
-    <script src="./lib/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+
+
+
 </body>
+
 </html>

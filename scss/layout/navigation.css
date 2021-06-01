@@ -1,5 +1,43 @@
 .navigation {
-  height: 100%;
-  width: 10rem;
+  height: 100vh;
+  width: 8%;
+  max-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+}
+
+.navigation i {
+  color: #7f7fd5;
+  font-size: 3.5rem;
+  margin-top: 4.6rem;
+}
+
+.navigation__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navigation__list li:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.tumbler {
+  margin-bottom: 4.5rem;
+}
+
+.tumbler :hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=navigation.css.map */
