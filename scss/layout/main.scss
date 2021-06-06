@@ -280,7 +280,7 @@ width: 70%;
 {
     color:var(--gray_dark);
     font-size: 1.6rem;
-    margin-right: 1rem;
+    margin: 0 1rem 0 0;
     font-weight: 600;
 
 }
@@ -336,3 +336,78 @@ width: 35%;
    
 }
 
+.item__font-size-medium .explanation__text{
+    font-size: 1.2rem;
+}
+
+.explanation__square{
+    background: #7F7FD5;
+    border-radius: 5px;
+    width: 1.6rem;
+   height: 1.6rem;
+}
+
+
+.explanation__square-light{
+    background: #E786D7;
+}
+
+.explanation__row{
+    align-items: center;
+}
+
+.reach-by-device__content{
+    width: 100%;
+    
+}
+
+.explanation__square{
+    margin-right: .9rem;
+}
+
+.explanation__text_margin-right{
+    margin-right: .9rem;
+ 
+}
+
+.explanation__square:hover{
+opacity: 0.8;
+transition: linear 0.3s;
+}
+
+.margin-0{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.geo__filter-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.geo__filter-link:hover{
+    opacity: 0.8;
+    transition: linear 0.3s;
+}
+
+.geo__filter-link_active{
+    color: var(--gray_dark);
+    margin-right: 0.9rem;
+}
+
+.progresses-bar__left{
+    
+    label{
+        color:var(--gray_dark);
+    }
+}
+
+.progress{
+    display: block;
+    width: 100%;
+   
+}
+
+.progresses-bar{
+    width: 100%;
+}
